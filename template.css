@@ -38,6 +38,38 @@ body,h1,h2,h3,h4,h5,h6
 	font-size:200px
 }
 
+.banner
+{
+	background-color: rgb(239, 239, 239); 
+	height: 510px
+}
+
+
+.banner h1
+{
+	float: right;
+	background-color: rgb(240, 240, 240);
+	width: 600px;
+	height: 300px;
+	font-size: 150px;
+	font-family: "Times New Roman";
+	padding-top: 150px;
+	color: rgb(168, 85, 99)
+}
+
+.banner p
+{
+	float: right;
+	background-color: rgb(240, 240, 240);
+	width: 600px;
+	height: 100px;
+	font-size: 23px;
+	font-family: "Monaco";
+	margin: 10px;
+	color: rgb(107, 77, 103)
+}
+
+
 p
 {
 	color:black;
@@ -100,16 +132,19 @@ p
 
 button
 {
-	color: black;
-  	background-color: black;
   	border: none;
   	/*: 15px 32px; */
   	text-align: center;
+	box-shadow: 2px 2px 4px rgba(0.1, 0.1, 0.1, 0.2);
   	text-decoration: none;
   	display: inline-block;
   	font-size: 16px;
+	padding: 23px
   	/*padding-bottom: 10px; */
 
+}
+button:hover {
+	box-shadow: 3px 2px 6px rgba(0.3, 0.3, 0.3, 0.3);
 }
  .nav-item{
     text-align: right;
